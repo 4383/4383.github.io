@@ -1,4 +1,8 @@
 ---
 layout: page
 ---
-# Hervé Beraud Personal Website
+# Personal Website
+
+### [Projects](https://github.com/4383/)
+
+### [Bookmarks](/bookmarks)
