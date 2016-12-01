@@ -7,4 +7,4 @@ I'm a French IT development engineer. I love creating beautiful crafted, usable 
 
 I talk about technology that I love (Python, Linux, Vim, Latex) and more skills here...
 
-I found pleasure to work on embded systems, web projects, video games, you can [follow all my personal](https://github.com/4383) projects and my achievements here.
+I found pleasure to work on embded systems, web projects, video games, you can [follow all my personal projects](https://github.com/4383) and my achievements here.
