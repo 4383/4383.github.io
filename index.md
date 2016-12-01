@@ -5,4 +5,4 @@ layout: page
 
 ### [Projects](https://github.com/4383/)
 
-### [Bookmarks](https://github.com/4383/bookmarks)
+### [Bookmarks](https://4383.github.com/bookmarks)
