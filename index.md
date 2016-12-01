@@ -3,6 +3,6 @@ layout: page
 ---
 # Personal Website
 
-### [Projects](https://github.com/4383/)
+### [My Projects](https://github.com/4383/)
 
-### [Bookmarks](https://4383.github.com/bookmarks)
+### [My Bookmarks and usefull links](https://4383.github.com/bookmarks)
