@@ -51,8 +51,9 @@ knockd command to run on the closing sequence detection can be:
 ```shell
 service ssh stop && /sbin/iptables -D INPUT -s %IP% -p tcp --dport 22 -j ACCEPT
 ```
-Or the entire configuration file:
+Or the entire configuration file (`/etc/knockd.conf`):
 ```shell
+# /etc/knockd.conf
 [options]
         UseSyslog
 
