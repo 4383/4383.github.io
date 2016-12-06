@@ -28,6 +28,7 @@ Anyone with a [tool for bruteforce port knocking like porno-king](https://mhackg
 
 ## Solution
 The right way to secure properly your server is:
+
 1. by default you must shutdown your SSH service at start (or don't start at start)
 2. configure iptables to reject all SSH traffic
 3. setup knockd to start SSH service and add an entry to the iptables rules for allow connection on SSH service from IP address who have send the port knocking opening sequence
