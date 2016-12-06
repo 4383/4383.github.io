@@ -27,4 +27,7 @@ This is a bad practice, you leak somes sensitives informations about your system
 Anyone with a [tool for bruteforce port knocking like porno-king](https://mhackgyver-squad.github.io/porno-king/) can try to discover your port knocking sequence and open SSH service on this IP address.
 
 ## Solution
-By default you must shutdown your SSH service and launch it only when the port knocking sequence is detected
+The right way to secure properly your server is:
+1. by default you must shutdown your SSH service at start (or don't start at start)
+2. configure iptables to reject all SSH traffic
+3. setup knockd to start SSH service and add an entry to the iptables rules for allow connection on SSH service from IP address who have send the port knocking opening sequence
