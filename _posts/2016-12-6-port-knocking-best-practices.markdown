@@ -43,6 +43,7 @@ The right way to secure properly your server is:
 ## Setup the best practices
 
 ### iptables setup
+Configure your iptables for securize network traffic
 
 ```
 $ # use sudoers if necessary
