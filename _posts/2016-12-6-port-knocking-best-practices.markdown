@@ -41,6 +41,7 @@ The right way to secure properly your server is:
 3. setup knockd to start SSH service and add an entry to the iptables rules for allow connection on SSH service from IP address who have send the port knocking opening sequence
 
 ## Setup the best practices
+
 ### iptables setup
 
 ```
