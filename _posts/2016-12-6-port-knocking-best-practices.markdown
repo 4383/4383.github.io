@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Secure your port knocking with best practices"
+title:  "Port knocking best practices"
 date:   2016-12-6 12:55:28 +0100
 categories: security, linux, port-knocking
 ---
