@@ -24,7 +24,7 @@ github_username:  4383
 
 # Build settings
 markdown: kramdown
-theme: leap-day
+theme: minima
 gems:
   - jekyll-feed
 exclude:
