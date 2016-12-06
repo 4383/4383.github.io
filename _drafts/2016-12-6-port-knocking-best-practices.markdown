@@ -32,3 +32,39 @@ The right way to secure properly your server is:
 1. by default you must shutdown your SSH service at start (or don't start at start)
 2. configure iptables to reject all SSH traffic
 3. setup knockd to start SSH service and add an entry to the iptables rules for allow connection on SSH service from IP address who have send the port knocking opening sequence
+
+## Setup the best practices
+### iptables setup
+```shell
+$ # use sudoers if necessary
+$ iptables -A INPUT -i lo -j ACCEPT
+$ iptables -F
+$ iptables -X
+$ iptables -A INPUT -j DROP
+```
+### knockd setup
+knockd command to run on the opening sequence detection can be:
+```shell
+service ssh start && /sbin/iptables -A INPUT -s %IP% -p tcp --dport 22 -j ACCEPT
+```
+knockd command to run on the closing sequence detection can be:
+```shell
+service ssh stop && /sbin/iptables -D INPUT -s %IP% -p tcp --dport 22 -j ACCEPT
+```
+Or the entire configuration file:
+```shell
+[options]
+        UseSyslog
+
+[openSSH]
+        sequence    = 7000,8000,9000
+        seq_timeout = 5
+        command     = service ssh start && /sbin/iptables -A INPUT -s %IP% -p tcp --dport 22 -j ACCEPT
+        tcpflags    = syn
+
+[closeSSH]
+        sequence    = 9000,8000,7000
+        seq_timeout = 5
+        command     = service ssh stop && /sbin/iptables -D INPUT -s %IP% -p tcp --dport 22 -j ACCEPT
+        tcpflags    = syn
+```
