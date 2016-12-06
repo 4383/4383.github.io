@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-# Personal Website
+# Welcome
 
 ### [My projects](https://github.com/4383/)
 
