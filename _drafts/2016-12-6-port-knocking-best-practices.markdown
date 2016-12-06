@@ -41,6 +41,7 @@ $ iptables -A INPUT -i lo -j ACCEPT
 $ iptables -F
 $ iptables -X
 $ iptables -A INPUT -j DROP
+$ # now add your own iptables rules (http, smtp, ftp, etc...)
 ```
 ### knockd setup
 knockd command to run on the opening sequence detection can be:
@@ -68,4 +69,19 @@ Or the entire configuration file (`/etc/knockd.conf`):
         seq_timeout = 5
         command     = service ssh stop && /sbin/iptables -D INPUT -s %IP% -p tcp --dport 22 -j ACCEPT
         tcpflags    = syn
+```
+
+## Have Fun
+Now try to scan your server port (SSH doesn't appear in the list of scanned service):
+```shell
+# nmap -PN ww.xx.yy.zz
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-06-12 ...
+Nmap scan report for xxxxxxxxxxxxx (ww.xx.yy.zz)
+Host is up (0.0023s latency).
+Not shown: 2043 closed ports
+PORT     STATE    SERVICE
+21/tcp   filtered ftp
+25/tcp   filtered smtp
+80/tcp   open     http
 ```
