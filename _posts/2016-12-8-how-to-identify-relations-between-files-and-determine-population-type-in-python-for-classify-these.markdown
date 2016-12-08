@@ -112,6 +112,7 @@ Depends on your HTML source origin and source files.
 All your files are already classified but you can easily improve similarity identification.
 
 If you compare all the files copied into a classified directory (example test1) you can observe that the ratio increase !
+
 So you can add more granularity in your classification and improve your parsing like CSS template detection if a image carousel are present and a lot of good stuffs !
 
 ## Conclusion
