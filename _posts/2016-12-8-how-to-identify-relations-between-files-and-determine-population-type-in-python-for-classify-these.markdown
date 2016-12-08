@@ -23,7 +23,7 @@ Also you can directly create an websites crawler if you have identify some targe
 ## Setup your labs
 Place all your html files in the same place example `/tmp/labs/`
 So you must have a content directory like this:
-```shell
+```
 $ ls /tmp/labs/
 file1.html
 file2.html
@@ -41,7 +41,7 @@ For compare files to reference file I have choose to use the python standard lib
 Python is battery included so we can use the difflib module for make the job.
 
 Example of comparison function:
-```python
+```
 from difflib import SequenceMatcher
 
 def compare(file1, file2):
@@ -73,7 +73,7 @@ Now modify your previous script and implement function for call the `compare` fu
 In your script you must implement a rule that copy your compared files in the right directory that corresponding to a population.
 
 Example:
-```python
+```
 import shutil
 
 def copy(page, directory):
