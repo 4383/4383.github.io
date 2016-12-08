@@ -11,10 +11,11 @@ and find similarities in these.
 
 ## Problem
 
-I have a huge amount of html files and I know that these files are created with a somes templates. 
+I have a huge amount of html files and I know that these files are created with some templates.
+
 I want identify how many templates are used for generate these files for generate somes generic parser on these.
-The idea is to classify these html files by population (used templates) in the first time and after I want create somes generic parser
-(one by population identified) for make the job and extract data on these.
+
+The idea is to classify these html files by population (used templates) in the first time and after I want create somes generic parser (one by population identified) for make the job and extract data on these.
 
 ## Prerequisites
 
