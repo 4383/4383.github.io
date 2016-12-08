@@ -30,3 +30,22 @@ file2.html
 ...
 file10000.html
 ```
+## Choose a reference file
+For make the job at first you must choose a file (any of them) which will serve as a reference during our classification analyze.
+Well now we can implement our algorithme !
+
+## Identify different templates files and classify your files from these
+### Comparison algorithme
+For compare files to reference file I have choose to use the python standard library.
+Python is battery included so we can use the difflib module for make the job.
+Example of comparison function:
+```python
+from difflib import SequenceMatcher
+
+def compare(file1, file2):
+  text1 = open(file1).read()
+  text2 = open(file2).read()
+  m = SequenceMatcher(None, text1, text2)
+  result = m.ratio()
+  return result
+```
