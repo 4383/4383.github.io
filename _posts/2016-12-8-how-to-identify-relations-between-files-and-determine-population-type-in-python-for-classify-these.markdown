@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Industrial treatment and classification of huge amount for create generate parser"
+title:  "Industrial treatment and classification of huge amount of HTML files for create generic parser"
 date:   2016-12-8 14:33:28 +0100
 categories: [html, parsing, industrial, crawling]
 ---
