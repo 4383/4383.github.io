@@ -1,6 +1,3 @@
----
-layout: page
----
 # Welcome
 
 ### [My projects](https://github.com/4383/)
