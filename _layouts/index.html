@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+{% include loader.html %}
+<!--==========================================
+                    HEADER
+===========================================-->
+<header id="home">
+    {% include menu.html %}
+    <!--HEADER BACKGROUND-->
+    <div class="header-background section"></div>
+</header>
+
+
+<!--==========================================
+                   V-CARD
+===========================================-->
+<div id="v-card-holder" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+
+                <!-- V-CARD -->
+                <div id="v-card" class="card">
+
+                    <!-- PROFILE PICTURE -->
+                    <div id="profile" class="right">
+                        <img alt="profile-image" class="img-responsive" src="images/profile/profile.png">
+                        <div class="slant"></div>
+                    </div>
+                    <div class="card-content">
+                        <!-- NAME & STATUS -->
+                        <div class="info-headings">
+                            <h4 class="text-uppercase left">Hervé Beraud</h4>
+                            <h6 class="text-capitalize left">FOSS Hacker / DevOps Architect</h6>
+                        </div>
+                        <!-- CONTACT INFO -->
+                        <div class="infos">
+                            <p style="text-align:justify;">
+                                Hello! I’m Hervé. FOSS hacker & DevOps Architect with over 8 years of experience
+                                specializing in development, automatizing, industrializing. Experienced with all stages of the
+                                development cycle for cloud based projects. Having an in-depth knowledge
+                                including advanced GNU/Linux, methods, Python, Shell, Openstack, Devops, CI/CD,
+                                Git. Creative, passionate, curious. <a href="mailto:herveberaud.pro@gmail.com">Send me an email</a>
+                                for more informations
+                            </p>
+                        </div>
+
+                        <!--LINKS-->
+                        <div class="links">
+                            <!-- Github-->
+                            <a href="https://github.com/4383" class="social  btn-floating black darken-3"><i
+                                    class="fa fa-github"></i></a>
+                            <!-- TWITTER-->
+                            <a href="https://twitter.com/4383hberaud" class="social  btn-floating blue"><i
+                                    class="fa fa-twitter"></i></a>
+                            <!-- RSS-->
+                            <a href="index-dark.html#" class="social  btn-floating orange darken-3"><i
+                                    class="fa fa-rss"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--==========================================
+                     SCROLL TO TOP
+===========================================-->
+<div id="scroll-top">
+    <div id="scrollup"><i class="fa fa-angle-up"></i></div>
+</div>
+
+<!--==========================================
+                      FOOTER
+===========================================-->
+{% include footer.html %}
+
+
+<!--==========================================
+                  SCRIPTS
+===========================================-->
+<script src="javascript/vendors/jquery-2.1.3.min.js"></script>
+<script src="javascript/vendors/bootstrap.min.js"></script>
+<script src="javascript/vendors/materialize.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"></script>
+<script src="javascript/vendors/markerwithlabel.min.js"></script>
+<script src="javascript/vendors/retina.min.js"></script>
+<script src="javascript/vendors/scrollreveal.min.js"></script>
+<script src="javascript/vendors/swiper.jquery.min.js"></script>
+<script src="javascript/vendors/jquery.magnific-popup.min.js"></script>
+<script src="javascript/custom-dark.js"></script>
+
+
+</body>
+</html>
