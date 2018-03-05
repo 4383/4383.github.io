@@ -12,34 +12,21 @@
     <div class="header-background section"></div>
 </header>
 
-
-<!--==========================================
-                   V-CARD
-===========================================-->
-<div id="v-card-holder" class="section">
-    <div class="container">
+<div id="about" class="section">
+     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-
-                <!-- V-CARD -->
-                <div id="v-card" class="card">
-
-                    <!-- PROFILE PICTURE -->
+            <div class="col-md-12">
+                <!-- DETAILS -->
+                <div id="about-card" class="card">
                     <div class="card-content">
-                        <!-- NAME & STATUS -->
-                        <div class="info-headings">
-                            <h4 class="text-uppercase left">{{ post.title }}</h4>
-                            <h6 class="text-capitalize left">{{ post.date | date_to_xmlschema }}</h6>
-                        </div>
-                        <!-- CONTACT INFO -->
-                        <div class="infos">
-                          {{ content }}
-                        </div>
+                      <h2>{{ post.title }}</h2>
+                    <!-- ABOUT PARAGRAPH -->
+                    {{ content }}
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+     </div>
 </div>
 
 <!--==========================================
