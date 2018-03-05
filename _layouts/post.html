@@ -9,26 +9,30 @@
 <header id="home">
     {% include menu.html %}
     <!--HEADER BACKGROUND-->
+    <h2 class="text-uppercase left">{{ post.title }}</h2>
+    <h6 class="text-capitalize left">{{ post.date | date_to_xmlschema }}</h6>
     <div class="header-background section"></div>
 </header>
 
 
-<!--==========================================
-                   V-CARD
-===========================================-->
-<section class="section">
+<div id="v-card-holder" class="section">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div id="v-card" class="card">
+                    <div id="profile" class="right">
+                      <img alt="blog-image" class="img-responsive" src="/images/blog/{{ page.image }}">
+                        <div class="slant"></div>
+                    </div>
                     <div class="card-content">
                         <div class="info-headings">
-                            <h4 class="text-uppercase left">{{ post.title }}</h4>
-                            <h6 class="text-capitalize left">{{ post.date | date_to_xmlschema }}</h6>
+                          <h4 class="text-uppercase left">{{ page.title }}</h4>
+                          <h6 class="text-capitalize left">Autored by Hervé Beraud on {{ page.date }}</h6>
                         </div>
-                        <!-- CONTACT INFO -->
                         <div class="infos">
-                          {{ content }}
+                            <p style="text-align:justify;">
+                                {{ page.description }}
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -36,6 +40,26 @@
         </div>
     </div>
 </div>
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div id="v-card" class="card">
+                    <div class="card-content">
+                        <div class="info-headings">
+                        </div>
+                        <!-- CONTACT INFO -->
+                        <div class="infos">
+                          <div class="left-align">
+                            {{ content }}
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!--==========================================
                      SCROLL TO TOP

@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "Port knocking best practices"
+description: "How to configure an efficient and properly port knocking"
 date:   2016-12-6 12:55:28 +0100
+image: port-knocking.jpg
 categories: [security, linux, port-knocking]
 ---
+## Introduction
 In this post I want to explain how to use correctly port knocking with iptables.
 
 ## Prerequisite
