@@ -9,12 +9,7 @@
 <header id="home">
     {% include menu.html %}
     <!--HEADER BACKGROUND-->
-    <div style="background-image: url('/images/background/index.png')">
-        <video id="video_background" preload="auto" autoplay="" loop="loop" muted="muted">
-            <source src="/images/background/index.mp4" type="video/mp4">
-            Video not supported
-        </video>
-    </div>
+    <div class="header-background section"></div>
 </header>
 
 
@@ -48,14 +43,17 @@
                                 and <a href="https://github.com/4383/english-curriculum-vitae/raw/master/cv.pdf">download my CV</a>.
                             </p>
                         </div>
-                        <div id="about-btn" class="card-action">
-                            <div class="about-btn">
-                                <!-- DOWNLOAD CV BUTTON -->
-                                <a href="/#posts" class="btn waves-effect">My Posts</a>
-                                <!-- CONTACT BUTTON -->
-                                <a href="/about.html" class="btn waves-effect">About Me</a>
+                        <div class="links">
+                            <!-- Github-->
+                            <a href="https://github.com/4383" class="social  btn-floating black darken-3"><i
+                                    class="fa fa-github fa-2x"></i></a>
+                            <!-- TWITTER-->
+                            <a href="https://twitter.com/4383hberaud" class="social  btn-floating blue"><i
+                                    class="fa fa-twitter fa-2x"></i></a>
+                            <!-- RSS-->
+                            <a href="/feed.xml" class="social  btn-floating orange darken-3"><i
+                                    class="fa fa-rss fa-2x"></i></a>
                         </div>
-                         </div>
                     </div>
                 </div>
             </div>
