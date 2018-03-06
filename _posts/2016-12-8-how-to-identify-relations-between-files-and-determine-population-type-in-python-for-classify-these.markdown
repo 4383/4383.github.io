@@ -3,6 +3,8 @@ layout: post
 title:  "Industrial treatment and classification of huge amount of HTML files for create generic parser"
 date:   2016-12-8 14:33:28 +0100
 categories: [html, parsing, industrial, crawling]
+description: "How to classify huge amount of html for creating a generic parser with python"
+image: huge-amount-of-files.jpg
 ---
 # How to find relation between files and determine kind of population (kind of files)
 
