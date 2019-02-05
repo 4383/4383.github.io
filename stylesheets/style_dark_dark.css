@@ -457,3 +457,19 @@ footer{width:100%;height:auto;color:#282828;margin-top:-18px;margin-bottom:9px;}
 .single-page a{color:#282828;}
 hr{border-top:1px solid #282828;}
 .single-footer{margin:0;}
+.card .card-content .infos p{margin-bottom:10px;color:inherit;text-align:left;color:#fdfdfd;}
+.card .card-content .infos li{margin-bottom:10px;color:inherit;text-align:left;color:#fdfdfd;}
+.card .card-content .infos ul {
+  list-style: none;
+  padding: 0;
+}
+.card .card-content .infos li {
+  padding-left: 1.3em;
+}
+.card .card-content .infos li:before {
+  content: "\f105"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}

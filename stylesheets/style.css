@@ -21,3 +21,6 @@
   background-position:center center;
   background-attachment:fixed;
 }
+.infos .p {
+    text-align: left;
+}
