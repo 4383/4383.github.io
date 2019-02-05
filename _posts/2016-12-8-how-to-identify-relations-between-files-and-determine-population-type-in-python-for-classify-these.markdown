@@ -30,7 +30,7 @@ Also you can directly create an websites crawler if you have identify some targe
 
 Place all your html files in the same place example `/tmp/labs/`
 So you must have a content directory like this:
-```
+```shell
 $ ls /tmp/labs/
 file1.html
 file2.html
@@ -52,7 +52,7 @@ Python is battery included so we can use the difflib module for make the job.
 
 Example of comparison function:
 
-```
+```python
 from difflib import SequenceMatcher
 
 def compare(file1, file2):
@@ -87,7 +87,7 @@ In your script you must implement a rule that copy your compared files in the ri
 
 Example:
 
-```
+```python
 import shutil
 
 def copy(page, directory):

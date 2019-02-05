@@ -29,7 +29,7 @@ to deploy Openstack on it.
 Environment setup is really straightforward you just need to install
 some libraries and to restart the libvirt service at end:
 
-```
+```shell
 $ yum install -y libvirt libguestfs libguestfs-tools virt-install
 $ service libvirt restart
 ```
@@ -42,7 +42,7 @@ to use infrared.
 I suppose your laptop use fedora 29.
 
 First start by installing dependencies:
-```
+```shell
 $ sudo dnf install git gcc libffi-devel openssl-devel
 $ sudo dnf install python-virtualenv
 $ sudo dnf install libselinux-python
@@ -52,7 +52,7 @@ For further reading you can follow the [official setup documentation](https://in
 
 Now installing infrared:
 
-```
+```shell
 $ git clone https://github.com/redhat-openstack/infrared.git
 $ cd infrared
 $ virtualenv .venv && source .venv/bin/activate
@@ -66,7 +66,7 @@ $ pip install .
 Now we will to provision machines on your environment by using infrared.
 
 Ensure to have the virsh plugin added:
-```
+```shell
 $ infrared plugin add plugins/virsh
 $ # if already activated you will receive a warning
 ```
@@ -129,7 +129,7 @@ $ infrared tripleo-undercloud --version 10 --images-task rpm
 ```
 
 Deploy your overcloud by using OSP 10 (`newton`):
-```
+```shell
 $ infrared tripleo-overcloud \
     --deployment-files virt \
     --version 10 \
@@ -142,7 +142,7 @@ Normaly your setup is complet and you can start to use your openstack by creatin
 
 You can now connect with ssh to provisioned vms and start to play with your freshly deployed openstack environment:
 
-```
+```shell
 $ infrared ssh controller-0
 [WARNING]: Found both group and host with same name: hypervisor
 

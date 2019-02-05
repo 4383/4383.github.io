@@ -6,5 +6,6 @@ description: >
     I'm a python lover, GNU/Linux addict and I'm passionate by computer science! and sciences in general
 baseurl: "/"
 url: "https://herve.beraud.io"
+highlighter: rouge
 plugins:
   - jekyll-feed
