@@ -89,6 +89,32 @@ You can connect to your host and check for vm provisioned:
  3     compute-0                      running
 ``` 
 
+You can also use the `infrared workspace` command to inspect
+your environment:
+
+```
+$ infrared workspace list
++-------------------------------+--------+
+| Name                          | Active |
++-------------------------------+--------+
+| workspace_2018-11-28_18-51-19 |    *   |
++-------------------------------+--------+
+$ infrared workspace node-list
+[WARNING]: Found both group and host with same name: hypervisor
+
++--------------+----------------------------------+-------------------------------------------------------+
+| Name         | Address                          | Groups                                                |
++--------------+----------------------------------+-------------------------------------------------------+
+| hypervisor   | <Your IP address>                | hypervisor, shade                                     |
++--------------+----------------------------------+-------------------------------------------------------+
+| controller-0 | 192.168.24.10                    | overcloud_nodes, network, controller, openstack_nodes |
++--------------+----------------------------------+-------------------------------------------------------+
+| undercloud-0 | 172.16.0.17                      | tester, undercloud, openstack_nodes                   |
++--------------+----------------------------------+-------------------------------------------------------+
+| compute-0    | 192.168.24.11                    | overcloud_nodes, compute, openstack_nodes             |
++--------------+----------------------------------+-------------------------------------------------------+
+```
+
 Now you can start to deploy your openstack by using tripleo.
 
 First check the tripleo plugins are available:
@@ -113,5 +139,15 @@ $ infrared tripleo-overcloud \
 ```
 
 Normaly your setup is complet and you can start to use your openstack by creating newtork, vm, etc...
+
+You can now connect with ssh to provisioned vms and start to play with your freshly deployed openstack environment:
+
+```
+$ infrared ssh controller-0
+[WARNING]: Found both group and host with same name: hypervisor
+
+[heat-admin@controller-0 ~]$ openstack --version
+openstack 3.8.1
+```
 
 That's all!
