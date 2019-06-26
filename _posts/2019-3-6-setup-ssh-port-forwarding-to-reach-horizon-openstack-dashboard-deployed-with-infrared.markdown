@@ -27,7 +27,7 @@ my actions saved and related to my needs and my topology. Thanks to Carlos for s
 ## Prerequisites
 - an environment with Red Hat Enterprise Linux 7
 - an ssh access to connect on your environment
-- a fully deployed openstack environment (by using infrared).
+- a fully [deployed openstack environment (by using infrared)]({% post_url 2019-2-5-prepare-environment-to-use-red-hat-infrared %}).
 
 ## Connect to you hypervisor
 
