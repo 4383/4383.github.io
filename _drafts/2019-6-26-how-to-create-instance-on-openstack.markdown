@@ -168,6 +168,52 @@ Use the following commands to create your own keypair:
 +---------+-------------------------------------------------+
 ```
 
+### Get virtual machines images
+
+To create your instance you need a base image, so now [you need to download
+and install VM](imageshttps://docs.openstack.org/image-guide/obtain-images.html).
+
+In this post we will use the [64-bit qcow2 CirrOS image](http://download.cirros-cloud.net/0.4.0/cirros-0.4.0-x86_64-disk.img):
+
+```shell
+[stack@undercloud-0 ~]$ wget http://download.cirros-cloud.net/0.4.0/cirros-0.4.0-x86_64-disk.img
+```
+
+Now add your image:
+
+```shell
+[stack@undercloud-0 ~]$ openstack image create "CirrOS-0.4.0" --file cirros-0.4.0-x86_64-disk.img --disk-format qcow2 --container-format bare --public
++------------------+------------------------------------------------------------------------------+
+| Field            | Value                                                                        |
++------------------+------------------------------------------------------------------------------+
+| checksum         | 443b7623e27ecf03dc9e01ee93f67afe                                             |
+| container_format | bare                                                                         |
+| created_at       | 2019-06-27T09:52:16Z                                                         |
+| disk_format      | qcow2                                                                        |
+| file             | /v2/images/db965c13-09b3-4150-859c-02fd552a7f5e/file                         |
+| id               | db965c13-09b3-4150-859c-02fd552a7f5e                                         |
+| min_disk         | 0                                                                            |
+| min_ram          | 0                                                                            |
+| name             | CirrOS-0.4.0                                                                 |
+| owner            | ac9a0a806b934048ac1ea3e311755859                                             |
+| properties       | direct_url='swift+config://ref1/glance/db965c13-09b3-4150-859c-02fd552a7f5e' |
+| protected        | False                                                                        |
+| schema           | /v2/schemas/image                                                            |
+| size             | 12716032                                                                     |
+| status           | active                                                                       |
+| tags             |                                                                              |
+| updated_at       | 2019-06-27T09:52:17Z                                                         |
+| virtual_size     | None                                                                         |
+| visibility       | public                                                                       |
++------------------+------------------------------------------------------------------------------+
+[stack@undercloud-0 ~]$ openstack image list # you can observe your freshly created image
++--------------------------------------+--------------+--------+
+| ID                                   | Name         | Status |
++--------------------------------------+--------------+--------+
+| db965c13-09b3-4150-859c-02fd552a7f5e | CirrOS-0.4.0 | active |
++--------------------------------------+--------------+--------+
+```
+
 ### Configure your security rules
 
 Now configure some security rules to allow [ICPM](https://docs.openstack.org/install-guide/common/glossary.html#term-internet-control-message-protocol-icmp)
