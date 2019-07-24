@@ -90,6 +90,5 @@ $ ssh -L 38080:<your-controller-ip-to-forward-too>:443 heat-admin@<your-controll
 
 ## Open your browser
 
-Now you just have to open [https://localhost:38080/dashboard/](https://localhost:38080/dashboard/) with your browser.
-
-That's all!
+Now you just have to open [https://localhost:38080/dashboard/](https://localhost:38080/dashboard/) with your browser
+and play with your dashboard.

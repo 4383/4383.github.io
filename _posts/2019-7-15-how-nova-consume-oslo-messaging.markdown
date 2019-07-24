@@ -18,7 +18,7 @@ I this post I want to show you:
 - how openstack services consume oslo.messaging and especially how they use the rabbitmq driver.
 - some POC to test different behaviours
 
-I think these info can be useful for other persons so I want to share these
+These info can be useful for other persons so I want to share these
 with you.
 
 My walkthrough (cf. section bellow) had help me to understand how things works together, so I think

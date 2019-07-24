@@ -102,5 +102,3 @@ tmpfs                            95G       0   95G   0% /sys/fs/cgroup
 /dev/sda1                      1014M    147M  868M  15% /boot
 tmpfs                            19G       0   19G   0% /run/user/0
 ```
-
-That's all!

@@ -7,7 +7,8 @@ image: port-knocking.jpg
 categories: [security, linux, port-knocking]
 ---
 ## Introduction
-In this post I want to explain how to use correctly port knocking with iptables.
+The goal of the article is to explain how to use correctly port knocking
+with iptables.
 
 ## Prerequisite
 - knowing SSH server management

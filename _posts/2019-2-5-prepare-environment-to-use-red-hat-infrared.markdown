@@ -16,7 +16,7 @@ The project originated from Red Hat OpenStack infrastructure team that looked fo
 provide an “easier” method for installing OpenStack from CLI but has since grown and can be
 used for any Ansible based projects.
 
-In this post I want to explain how to setup your environment to use Red Hat Infrared
+In this post we will explain how to setup an environment to use Red Hat Infrared
 to deploy Openstack on it.
 
 ## Prerequisites
@@ -24,7 +24,7 @@ to deploy Openstack on it.
 - an ssh access to connect on your environment
 - root access in a second time to use infrared on it
 
-## Setup your environment
+## Setup environment
 
 Environment setup is really straightforward you just need to install
 some libraries and to restart the libvirt service at end:
@@ -39,7 +39,7 @@ $ service libvirt restart
 Now your environment is ready for use you need to configure laptop
 to use infrared.
 
-I suppose your laptop use fedora 29.
+I suppose your machine use fedora 29.
 
 First start by installing dependencies:
 ```shell
@@ -149,5 +149,3 @@ $ infrared ssh controller-0
 [heat-admin@controller-0 ~]$ openstack --version
 openstack 3.8.1
 ```
-
-That's all!
