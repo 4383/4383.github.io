@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to patch openstack tripelo"
+title:  "How to patch openstack tripelo with a new apache engine"
 description: "How to patch openstack tripleo and especially your undercloud to test your changes"
 date:   2019-7-23 16:31:00 +0100
 image: tripleo.png
@@ -17,6 +17,14 @@ gerrit or github by example.
 During this walkthrough we will using an OSP15 freshly deployed by using
 [infrared](https://infrared.readthedocs.io/en/stable/index.html) (cf. [my previous post about how to deploy by using infrared]({% post_url 2019-2-5-prepare-environment-to-use-red-hat-infrared %})).
 
+We will follow a real use case to explain how to patch openstack.
+
+The use case is based on an issue with the nova-api AMQP heartbeat who doesn't
+work correctly due to an eventlet monkey patch of the python stdlib.
+
+So we want to test if switching from a different apache engine (from `prefork`
+to `event`) will fix the threading issue.
+
 To explain how things works we will using these 2 patches set:
 - [https://review.opendev.org/#/c/668862/](https://review.opendev.org/#/c/668862/)
 - [https://review.opendev.org/#/c/671254/](https://review.opendev.org/#/c/671254/)
@@ -29,7 +37,7 @@ This walkthrough I will give you a tiny idea of:
 - how to test patches on an environment (during development period by example)
 - how openstack deployment mechanismes works (the puppet part)
 
-The idea behind the applying of these changes is to switch from an
+Like explained previously the idea behind the applying of these changes is to switch from an
 apache MPM engine to another and to redeploy our undercloud after this to check
 if the MPM engine in use is an issue with eventlet and green threads.
 
@@ -39,7 +47,7 @@ async libraries and modern kernel features like epoll.
 
 For further reading about the apache MPM module switching part you can
 [read my previous blog post]({% post_url 2019-7-15-how-nova-consume-oslo-messaging %})
-where I explained the issue and the reasons behind these changes.
+where the original issue and the reasons behind these changes are explained.
 
 ## Who this article is for?
 
