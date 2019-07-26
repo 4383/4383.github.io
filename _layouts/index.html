@@ -90,7 +90,7 @@
                         <!-- TIMELINE TITLE INFO -->
                         <div class="timeline-info">
                             <h6>
-                                <small>{{ post.date | date_to_xmlschema }}</small>
+                                <small>{{ post.date | date: "%-d %B %Y" }}</small>
                             </h6>
                         </div>
                         <!-- TIMELINE PARAGRAPH -->
