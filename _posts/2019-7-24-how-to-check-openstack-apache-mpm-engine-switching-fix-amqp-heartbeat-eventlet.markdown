@@ -4,7 +4,7 @@ title:  "Compare apache MPM engine module on openstack"
 description: "Comparison between the apache prefork module and event module, eventlet behaviour & performance benchmark"
 date:   2019-7-24 16:31:00 +0100
 image: apache.gif
-categories: [openstack, tripleo, gerrit, patch, heat-template]
+categories: [openstack, apache, eventlet, greenlet, rabbitmq, heartbeat]
 ---
 ## Introduction
 
