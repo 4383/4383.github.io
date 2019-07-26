@@ -10,7 +10,7 @@
     {% include menu.html %}
     <!--HEADER BACKGROUND-->
     <h2 class="text-uppercase left">{{ post.title }}</h2>
-    <h6 class="text-capitalize left">{{ post.date }}</h6>
+    <h6 class="text-capitalize left">{{ post.date | date: "%-d %B %Y" }}</h6>
     <div class="header-background section"></div>
 </header>
 
@@ -27,7 +27,7 @@
                     <div class="card-content">
                         <div class="info-headings">
                           <h4 class="text-uppercase left">{{ page.title }}</h4>
-                          <h6 class="text-capitalize left">Autored by Hervé Beraud on {{ page.date }}</h6>
+                          <h6 class="text-capitalize left">Autored by Hervé Beraud on {{ page.date | date: "%-d %B %Y" }}</h6>
                         </div>
                         <div class="infos">
                             <p style="text-align:justify;">
