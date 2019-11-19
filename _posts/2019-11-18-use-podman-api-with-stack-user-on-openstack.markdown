@@ -40,7 +40,7 @@ of server and clusters (rabbitmq, mariadb, etc...).
 
 The goal of this article is to show to you how to setup your openstack to 
 allow your `stack` user to run podman commands by using the podman python API.
-We don't want to use either the podman CLI, the sudo command or become root.
+We don't want to use neither the podman CLI, the sudo command or become root.
 
 It can be a way to automatize things and that we can run as the `stack` user in
 openstack.
