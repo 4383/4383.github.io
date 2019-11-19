@@ -122,9 +122,22 @@ b0ab3c3adf2d
 
 As you can observe `stack` user is a sudoers.
 
-On RHEL8 normally the socket is already setup during podman install
-so you don't need to do something. You can check if the podman socket is
-listening by using `systemctl`:
+To start your podman varlink backend we need to run the following commands:
+
+```sh
+stack@undercloud ~$ sudo echo 'd /run/podman 0750 root podman' > /etc/tmpfiles.d/podman.conf
+stack@undercloud ~$ sudo cp /lib/systemd/system/io.podman.socket /etc/systemd/system/io.podman.socket
+stack@undercloud ~$ sudo crudini --set /etc/systemd/system/io.podman.socket Socket SocketMode 0660
+stack@undercloud ~$ sudo crudini --set /etc/systemd/system/io.podman.socket Socket SocketGroup podman
+stack@undercloud ~$ sudo systemctl daemon-reload
+stack@undercloud ~$ sudo systemd-tmpfiles --create
+stack@undercloud ~$ sudo systemctl enable --now io.podman.socket
+stack@undercloud ~$ sudo chown -R root:podman /run/podman
+stack@undercloud ~$ sudo chmod g+rw /run/podman/io.podman
+stack@undercloud ~$ sudo systemctl start io.podman.socket
+```
+
+You can check if the podman socket is listening by using `systemctl`:
 
 ```sh
 stack@undercloud ~$ sudo systemctl list-sockets
@@ -138,36 +151,10 @@ If you see similar output then the socket is running and you can jump to
 the section "Run podman commands by using the python API", else you need to
 configure and start your backend.
 
-The more simplest way to run your backend is to use the [`podman varlink`
-command](https://www.mankier.com/1/podman-varlink).
-
-Here we want to use the default socket setup during install and running our API
-commands as the `root` user.
-
-Run your backend on the default socket:
-
-```sh
-root@undercloud ~# podman varlink
-```
-
-Recheck normally now you will see your socket listening:
-
-```sh
-stack@undercloud ~$ sudo systemctl list-sockets
-LISTEN                         UNIT                     ACTIVATES
-/run/dbus/system_bus_socket    dbus.socket              dbus.service
-...
-/run/podman/io.podman          io.podman.socket         io.podman.service
-```
-
-Else you can try to follow some parts of this [blog post](https://podman.io/blogs/2019/01/16/podman-varlink.html)
-and the following commands:
-
-```sh
-stack@undercloud ~$ sudo systemctl daemon-reload
-stack@undercloud ~$ sudo systemd-tmpfiles --create
-stack@undercloud ~$ sudo systemctl enable --now io.podman.socket
-```
+Also you can take a look to the
+[`podman varlink` command](https://www.mankier.com/1/podman-varlink) to run and
+start your backend. Normally this command will run automatize some parts of
+the previous set of commands.
 
 ## Run podman commands by using the python API
 
