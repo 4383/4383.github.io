@@ -7,16 +7,16 @@ image: datacenter.jpg
 categories: [virtualization, linux, file system, logical, volume, environment]
 ---
 ## Introduction
-Sometimes your machine was already setup at start and the standard configuration
-doesn't to your needs. For some particular reasons It's can be really useful to
-resize your some parts of your mounts.
+Sometimes your machine is already settled at start and the standard
+configuration doesn't reach to your needs.
+For some particular reasons you would need to resize your mounting points.
 
-By example a personal use case for me is [to use infrared to deploy openstack on an hypervisor]({% post_url 2019-2-5-prepare-environment-to-use-red-hat-infrared %}).
-Infrared need to create vms and by default it use the root user to setup hypervor with
-the virsh plugin. My default hypervisor is not enough to create my topology (vms) so
+By example, my goal is [to use infrared to deploy openstack on my personal hypervisor]({% post_url 2019-2-5-prepare-environment-to-use-red-hat-infrared %}).
+Infrared create VMs and by default it use the root user to setup hypervor with
+the virsh plugin. My hypervisor by default haven't enough space to create my topology (VMs) so
 I need to resize my file system.
 
-By default my hypervisor have 50G availables for the `/` and 877G availables for the `/home`:
+By default my hypervisor only have 50G availables for the `/` and 877G availables for the `/home`:
 ```shell
 # df -h
 File system                     Size    Used Available Use% Mounted on
@@ -30,7 +30,7 @@ tmpfs                            95G       0       95G   0% /sys/fs/cgroup
 tmpfs                            19G       0       19G   0% /run/user/0
 ```
 
-This is a dirty hypervisor only for testing purposei. [Linux hardening](https://www.cyberciti.biz/tips/linux-security.html) is not
+My hypervisor is only for testing purpose. [Linux hardening](https://www.cyberciti.biz/tips/linux-security.html) is not
 necessary on this environment and we don't need to apply security best practices.
 This isn't a production environment.
 
@@ -38,7 +38,7 @@ We want to remove the `/home` and to reallocate available ressources to `/` so
 at end `/` will have a size of 927G.
 
 ## Prerequisites
-- an ssh access to connect on your environment.
+- ssh access to connect on your environment.
 - root access or sudoers access.
 
 ## Resize your volumes
@@ -51,7 +51,7 @@ Edit `/etc/fstab` and comment the line where `/home` appear.
 
 ### Unmount your /home
 
-Now you need to unmount your `/home`
+Now unmount your `/home`
 
 ```shell
 $ umount /home
@@ -65,7 +65,7 @@ $ VGINFO=$(vgs --noheading | awk '{print $1}')
 
 ### Stop the /home logical volume
 
-Now by using the `lvchange` command you need to stop the `/home` logical volume:
+By using the `lvchange` command you need to stop the `/home` logical volume:
 
 ```shell
 $ lvchange -a n "${VGINFO}/home"
@@ -73,7 +73,7 @@ $ lvchange -a n "${VGINFO}/home"
 
 ### Remove the /home logical volume
 
-Now by using the `lvremove` command you need to remove the `/home` logical volume:
+By using the `lvremove` command you need to remove the `/home` logical volume:
 
 ```shell
 $ lvremove "${VGINFO}/home"
