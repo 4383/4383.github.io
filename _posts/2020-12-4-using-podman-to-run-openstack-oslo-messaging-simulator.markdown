@@ -167,6 +167,64 @@ You can observe that a message have been successfully transmitted to your server
 Also you can observe [RabbitMQ's queues](http://127.0.0.1:15672/#/queues)
 and also observe the reply queue used by the server to reply to the client.
 
+## Simulator's Useful Features
+
+### The Debug Mode
+
+The simulator provide a debug mode that allow us to turn all logs at the
+`DEBUG` level even for the underlaying libraries.
+
+It is really useful to quickly track your application's debug messages.
+
+It could by activated simply by passing the `-d` flag, example with a
+rpc-server:
+
+```
+$ tox -e venv -- python tools/simulator.py --config-file ./tuto.conf -d rpc-server
+```
+
+### Wait Before Answer
+
+In some situations you want to simulate failure, by example by removing a reply
+queue to allow you to see what will happen. By example it could be used to
+observe what will happen when a rpc server will send a reply on a undefined
+reply queue.
+
+But to do that you need first to remove manually an existing reply queue
+declared by the rpc client. By removing the reply client the server will
+reply on it and fails in some manner, and the client will reach a timeout by
+waiting for the reply.
+
+
+By using the `-w` param you can pass an integer and ask to the server to wait
+for this duration before sending a reply. It will allow to manually remove the
+corresponding queue.
+
+Here is an example bellow.
+
+Running a rpc server that will wait for the given duration
+before replying to the client:
+
+```
+$ tox -e venv -- python tools/simulator.py --config-file ./tuto.conf -d rpc-server -w 40
+```
+
+Runnig a standard rpc client:
+
+```
+$ tox -e venv -- python tools/simulator.py --config-file ./tuto.conf -d rpc-client
+```
+
+Remove the reply queue when the client have send is message:
+
+```
+$ sudo podman exec -it rabbitmq rabbitmqctl delete_queue reply_<id>
+```
+
+Now observe the rpc server's logs.
+
+A real life example can be found [here](https://bugs.launchpad.net/oslo.messaging/+bug/1905965/comments/8).
+
 ## Conclusion
 
 Now you can start to play with oslo.messaging and observe how it works.
