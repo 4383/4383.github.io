@@ -167,7 +167,7 @@ You can observe that a message have been successfully transmitted to your server
 Also you can observe [RabbitMQ's queues](http://127.0.0.1:15672/#/queues)
 and also observe the reply queue used by the server to reply to the client.
 
-## Simulator's Useful Features
+## Notes for myself
 
 ### The Debug Mode
 
