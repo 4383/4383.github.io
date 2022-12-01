@@ -3,7 +3,7 @@ layout: post
 title:  "Getting Started with Minishift - Personal notes"
 description: "Personal notes to setup my minishift environment"
 date:   2022-12-01 16:00:00 +0100
-image: qpid.png
+image: minishift.png
 categories: [minishift, openshift, containers]
 ---
 ## Introduction
