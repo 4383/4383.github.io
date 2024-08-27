@@ -2,9 +2,9 @@
 layout: post
 title:  "Pour être il faut chercher à ne pas être"
 description: "Comment mieux penser au quotidien afin de maximiser ses chances"
-date:   2024-08-27 15:40:00 +0100
+date:   2024-8-27 12:29:00 +0100
 image: failure.png
-categories: [projet, réussite, pensée, succès]
+categories: [projet, reussite, pensee, succes]
 ---
 Pourquoi certaines personnes vivent jusqu'à 120 ans et d'autres non ?
 Pourquoi certaines entreprises réussissent quand d'autres échouent et
