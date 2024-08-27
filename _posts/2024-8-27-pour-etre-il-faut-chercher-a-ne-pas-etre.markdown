@@ -59,4 +59,4 @@ Si vous voulez vivre, évitez de mourir.<br/>
 Si vous voulez réussir, évitez l'échec.<br/>
 Puis croisez les doigts.
 
-**L'echec est l'ingrédient principal de la recette du succès.**
+**L'échec est l'ingrédient principal de la recette du succès.**
