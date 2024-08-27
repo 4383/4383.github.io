@@ -2,7 +2,7 @@
 layout: post
 title:  "Pour être il faut chercher à ne pas être"
 description: "Comment mieux penser au quotidien afin de maximiser ses chances"
-date:   2023-12-04 23:00:00 +0100
+date:   2024-08-27 15:40:00 +0100
 image: osint.png
 categories: [projet, réussite, pensée, succès]
 ---
