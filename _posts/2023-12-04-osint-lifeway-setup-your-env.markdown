@@ -3,7 +3,7 @@ layout: post
 title:  "The OSINT way of life"
 description: "How to setup your environment to conduct OSINT investigations"
 date:   2023-12-04 23:00:00 +0100
-image: osint.png
+image: osint.jpg
 categories: [OSINT, linux, investigations, security, hardening]
 ---
 ## Introduction

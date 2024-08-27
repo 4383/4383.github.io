@@ -3,12 +3,12 @@ layout: post
 title:  "Pour être il faut chercher à ne pas être"
 description: "Comment mieux penser au quotidien afin de maximiser ses chances"
 date:   2024-08-27 15:40:00 +0100
-image: osint.png
+image: failure.png
 categories: [projet, réussite, pensée, succès]
 ---
-Pourquoi certaines personnes vivent jusqu'à 120 ans et d'autres non ?<br>
+Pourquoi certaines personnes vivent jusqu'à 120 ans et d'autres non ?<br/>
 Pourquoi certaines entreprises réussissent quand d'autres échouent et
-disparaissent au bout de 5 ans ?<br>
+disparaissent au bout de 5 ans ?<br/>
 Pourquoi certaines idées ont plus de 5000 ans tandis que d'autres sont
 éphémères ?
 
@@ -55,8 +55,8 @@ Il s'agit là de mesurer les risques pour les réduire. Il s'agit d'inverser la
 perspective afin de tenir compte de ceux qui n'ont pas survécu. Il s'agit
 d'inverser la question pour lutter contre le biais du survivant.
 
-Si vous voulez vivre, évitez de mourir.<br>
-Si vous voulez réussir, évitez l'échec.<br>
+Si vous voulez vivre, évitez de mourir.<br/>
+Si vous voulez réussir, évitez l'échec.<br/>
 Puis croisez les doigts.
 
 **L'echec est l'ingrédient principal de la recette du succès.**
