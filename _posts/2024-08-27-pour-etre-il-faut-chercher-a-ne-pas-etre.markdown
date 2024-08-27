@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "L'echec est l'ingrédient principal de la recette du succès"
+title:  "Pour être il faut chercher à ne pas être"
 description: "Comment mieux penser au quotidien afin de maximiser ses chances"
 date:   2023-12-04 23:00:00 +0100
 image: osint.png
