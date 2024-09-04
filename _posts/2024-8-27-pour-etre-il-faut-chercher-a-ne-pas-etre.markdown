@@ -47,7 +47,7 @@ du problème.
 mais plutôt savoir comment mourir prématurément, et de tout faire pour
 l'éviter.**
 
-N'oublions pas le facteur chance, il fait partie de vie. Même en évitant
+N'oublions pas le facteur chance, il fait partie de la vie. Même en évitant
 soigneusement toutes les fausses notes, personne n'est à l'abri de se faire
 écraser par un bus au prochain croisement...
 
