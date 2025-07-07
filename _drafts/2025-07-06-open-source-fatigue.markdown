@@ -64,7 +64,6 @@ Free and open source software is haloed by the philosophy of freedom. The freedo
 unfettered access to a finite and valuable resource, our time as voluntary maintainers. Industry is not just
 the culprit, individuals also are.
 
-Freedom is not given, it is earned. Freedom is choosing our constraints that you want to live with.
 Because nobody will solve your problems for you, you have do the first step toward a better life. Here
 is 3 simple steps that you can apply on your daily basis to draw our boundaries and fight for your wellbeing.
 
@@ -91,7 +90,8 @@ you my experience and my knowledges. To see how to put these simple rules in pra
 my youtube channel and watch my videos. I give you my recipes. Making free software maintenance more
 sustainable is a ways among others I chosen to help the free software movement.
 
-
+Freedom is not given, it is earned. Freedom is choosing our constraints that you want to live with.
+Freedom starts when you say no - no to imposed workload, no to disrespect, no to burnout.
 
 ## Sources
 
