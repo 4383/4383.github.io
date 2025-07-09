@@ -2,8 +2,8 @@
 layout: post
 title:  "Freedom is choosing our constraints"
 description: "Thinking about how to avoid maintenance fatigues"
-date:   2024-10-10 08:29:00 +0100
-image: risk-management-and-open-source-project-security-with-critical-vulnerability.png
+date:   2025-07-09 19:29:00 +0100
+image: stop-disrespect-choose-freedom.png
 categories: [project, free software, open source, solutions, problems, burnout, freedom]
 ---
 You feel overwhelmed and exhausted by everything you have to do and still worry that you are not doing enough? Rest assured, you are not alone this situation. Many free and open source software maintainers feels the same frustration.
