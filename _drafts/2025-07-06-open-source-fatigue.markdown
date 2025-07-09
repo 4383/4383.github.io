@@ -6,94 +6,47 @@ date:   2024-10-10 08:29:00 +0100
 image: risk-management-and-open-source-project-security-with-critical-vulnerability.png
 categories: [project, free software, open source, solutions, problems, burnout, freedom]
 ---
-You feel overwhelmed and exhausted by everything you have to do and still worry that you are not doing enough?
-Rest assured, you are not alone this situation. Many free and open source software maintainers feels the same
-frustration.
+You feel overwhelmed and exhausted by everything you have to do and still worry that you are not doing enough? Rest assured, you are not alone this situation. Many free and open source software maintainers feels the same frustration.
 
-Being maintainer of a free and open source software is an ingrate hobby. Most of us are doing it just for fun
-or by conviction and are not paied for their contributions. In parallel of that, almost all the modern
-industry entirely rely on free or open source sofware. Most of these companies never recognize the work done
-and and never contributes in return.
+Being maintainer of a free and open source software is an ingrate hobby. Most of us are doing it just for fun or by conviction and are not paied for their contributions. In parallel of that, almost all the modern industry entirely rely on free or open source sofware. Most of these companies never recognize the work done and and never contributes in return.
 
-I know what I'm talking about. I contribute to free software since almost a decade now, and I see the human
-cost of the open source on a daily basis. I observed many recurrent problems, like unmanageable workload,
-rudeness among people, and burnout.
+I know what I'm talking about. I contribute to free software since almost a decade now, and I see the human cost of the open source on a daily basis. I observed many recurrent problems, like unmanageable workload, rudeness among people, and burnout.
 
-I daily work on mainstream open source projects, like OpenStack, and Eventlet. The projects I maintain have
-been downloaded hundreds of millions of times and even billions for some. Many of them root entire sections
-of the internet, all this without even a simple thank you.
+I daily work on mainstream open source projects, like OpenStack, and Eventlet. The projects I maintain have been downloaded hundreds of millions of times and even billions for some. Many of them root entire sections of the internet, all this without even a simple thank you.
 
-Time to time, someone found my personal address and mail me directly to ask me technical questions, without
-even using the most simple form of civility like saying hello. Many time I took my personal free time to
-answer these solicitation. Time to time after few back and forth with this correspondant I asked a question
-and I never get feedback, even after taking hours of my time to unlock his situation. Rudeness in its raw form.
+Time to time, someone found my personal address and mail me directly to ask me technical questions, without even using the most simple form of civility like saying hello. Many time I took my personal free time to answer these solicitation. Time to time after few back and forth with this correspondant I asked a question and I never get feedback, even after taking hours of my time to unlock his situation. Rudeness in its raw form.
 
-I myself contributed to many free software projects maintained by others, and I always tried, as far as
-possible, to be polite and to respect the time of my correspondant, even in case of disagreement.
+I myself contributed to many free software projects maintained by others, and I always tried, as far as possible, to be polite and to respect the time of my correspondant, even in case of disagreement.
 
-An other recurring aspect of open source maintenance that I daily observe is growing technical debts. There
-is always someone that propose you a newest coolish feature that you should add to your code. The problem
-is that once added, the technical debt is all for you. Most of the time people propose new code and then
-goes away. In case of CVE or critical issues, it is up to you to manage. And you start to feel the taste of
-overwhelming.
+An other recurring aspect of open source maintenance that I daily observe is growing technical debts. There is always someone that propose you a newest coolish feature that you should add to your code. The problem is that once added, the technical debt is all for you. Most of the time people propose new code and then goes away. In case of CVE or critical issues, it is up to you to manage. And you start to feel the taste of overwhelming.
 
-On the industry side, many companies are exploiting open source projects. They takes projects with
-permissive licenses like MIT maintained by volunteers, and then, these companies, applies changes that they do
-not bring back to the original projects, and they redistribute these open sources projects in closed way.
-No recognition of the work of others - cynical.
+On the industry side, many companies are exploiting open source projects. They takes projects with permissive licenses like MIT maintained by volunteers, and then, these companies, applies changes that they do not bring back to the original projects, and they redistribute these open sources projects in closed way. No recognition of the work of others - cynical.
 
 Disrespect, overwhelmed, lack of recognition - all the ingredients of burnout.
 
-Modern science speak about burnout as a smoke detector. Scientific researches from evolutionnary psychologists
-theorizes that depression would be an adaptive response when a person perseveres in a goal that has become
-unattainable. This mechanism would allow the individual to be disengaged from this project, to avoid an even
-more costly loss. This smoke detector seems to react to a fire signal where the first sign a lack of
-recognition and feeling of helplessness.
+Modern science speak about burnout as a smoke detector. Scientific researches from evolutionnary psychologists theorizes that depression would be an adaptive response when a person perseveres in a goal that has become unattainable. This mechanism would allow the individual to be disengaged from this project, to avoid an even more costly loss. This smoke detector seems to react to a fire signal where the first sign a lack of recognition and feeling of helplessness.
 
-Maintaining open source projects eventually becomes a priesthood. You just have to take a look at the numerous
-discussions about burnout in open source communities. A simple research on github about "stepping down" will
-give you an idea of the magnitude of this problem. That's far from an isolated case. That's a structural
-problem among voluntary maintainers. AI and its automatically generated patches will surely increase this
-discomfort. Even if pull requests are reviewed by AI, even if code is generated by AI, these projects remains
-piloted by humans.
+Maintaining open source projects eventually becomes a priesthood. You just have to take a look at the numerous discussions about burnout in open source communities. A simple research on github about "stepping down" will give you an idea of the magnitude of this problem. That's far from an isolated case. That's a structural problem among voluntary maintainers. AI and its automatically generated patches will surely increase this discomfort. Even if pull requests are reviewed by AI, even if code is generated by AI, these projects remains piloted by humans.
 
-Free and open source software is often seen as a solution to all the problems. FOSS is often seen as a miracle
-method to solve industry's problems. But who looks at the problems of the maintainers?
+Free and open source software is often seen as a solution to all the problems. FOSS is often seen as a miracle method to solve industry's problems. But who looks at the problems of the maintainers?
 
-Free and open source software is haloed by the philosophy of freedom. The freedom of people to enjoy an
-unfettered access to a finite and valuable resource, our time as voluntary maintainers. Industry is not just
-the culprit, individuals also are.
+Survey shown that almost 60% of maintainers have quit or considered quitting maintaining one of their projects due to burnout. Scientific studies demonstrated that non-corporate projects seems to have a higher rate in terms of toxic interactions, directly impacting voluntery maintainer. 
 
-Because nobody will solve your problems for you, you have do the first step toward a better life. Here
-is 3 simple steps that you can apply on your daily basis to draw our boundaries and fight for your wellbeing.
+Free and open source software is haloed by the philosophy of freedom. The freedom of people to enjoy an unfettered access to a finite and valuable resource, our time as voluntary maintainers. Industry is not just the culprit, individuals also are.
 
-To begin, as voluntery maintainer, you have to demand that your work be respected by the industry. That start
-by only spending your free time on projects with licenses that respect your work and your person - GNU GPL and
-GNU LGPL. If you are not paied for, you should avoid working on projects with permissive licenses like MIT, Apache
-License 2.0, etc. There is no reasons that your unpaied works finish encapsulated in a blackbox that
-have the permission to private their users of freedom. That's the first step to have your work valued
-at its fair value. LGPL allow your work to integrate with private systems prevents your work to be
-hijacked.
+Because nobody will solve your problems for you, you have do the first step toward a better life. Here is 3 simple steps that you can apply on your daily basis to draw our boundaries and fight for your wellbeing.
 
-The second step is that you have to ignore disrespectful persons. Do not waste your time with rude persons.
-No hello or no thanks, no answers. Simple.
+To begin, as voluntary maintainer, you have to demand that your work be respected by the industry. That start by only spending your free time on projects with licenses that respect your work and your person - GNU GPL and GNU LGPL. If you are not paied for, you should avoid working on projects with permissive licenses like MIT, Apache License 2.0, etc. There is no reasons that your unpaied works finish encapsulated in a blackbox that have the permission to private their users of freedom. That's the first step to have your work valued at its fair value. LGPL allow your work to integrate with private systems prevents your work to be hijacked.
 
-The third step - if applicable - is to implement plugins mechanisms into your software and to document them
-properly. This way, you won't finish by maintaining astronomical amounts of technical debts.
-Someone have a new brilliant idea? He just have to implement his own plugin. Its future maintenance
-won't fall into your workload. You remain sovereign of your software. This way you do not have to deal
-with extra mental load related to this new feature - CVEs, critical bugs...
+The second step is that you have to ignore disrespectful persons. Do not waste your time with rude persons. No hello or no thanks, no answers. Simple.
 
-Your wellbeing is not negotiable, your freedom and your time either. You have to define your constraints.
-My goal is to give you ways define them. You are not alone in your journey. I share with
-you my experience and my knowledges. To see how to put these simple rules in practices you can visit
-my youtube channel and watch my videos. I give you my recipes. Making free software maintenance more
-sustainable is a ways among others I chosen to help the free software movement.
+The third step - if applicable - is to implement plugins mechanisms into your software and to document them properly. This way, you won't finish by maintaining astronomical amounts of technical debts. Someone have a new brilliant idea? He just have to implement his own plugin. Its future maintenance won't fall into your workload. You remain sovereign of your software. This way you do not have to deal with extra mental load related to this new feature - CVEs, critical bugs...
 
-Freedom is not given, it is earned. Freedom is choosing our constraints that you want to live with.
-Freedom starts when you say no - no to imposed workload, no to disrespect, no to burnout.
+Your wellbeing is not negotiable, your freedom and your time either. You have to define your constraints. My goal is to give you ways define them. You are not alone in your journey. I share with you my experience and my knowledges. To see how to put these simple rules in practices you can [visit my youtube channel and watch my videos](https://www.youtube.com/@herveberaud). I give you my recipes. Making free software maintenance more sustainable is a ways among others I chosen to help the free software movement.
 
-## Sources
+Freedom is not given, it is earned. Freedom is choosing our constraints that you want to live with. Freedom starts when you say no - no to imposed workload, no to disrespect, no to burnout.
+
+## Sources & Useful Links
 
 1. **OpenStack PBR pepy**:
    - [Statistic concerning OpenStack PBR](https://pepy.tech/projects/pbr?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=daily&viewType=line&versions=6.1.1%2C6.1.0%2C6.0.0)
@@ -103,3 +56,21 @@ Freedom starts when you say no - no to imposed workload, no to disrespect, no to
 
 3. **Side effects of permissive licenses like MIT**:
    - [Transform permissive license into nonfree software, the example of X11](https://www.gnu.org/doc/fsfs-ii-2.pdf)
+
+4. **Open Source Maintainers Survey**:
+   - [Almost 60% of maintainers have quit burnout](https://www.sonarsource.com/blog/maintainer-burnout-is-real/)
+
+5. **Scientific study about burnout**:
+   - [Stress and Burnout in Open Source: Toward Finding, Understanding, and Mitigating Unhealthy Interactions](https://www.cs.cmu.edu/~ckaestne/pdf/icsenier20.pdf)
+
+6. **Scientific study about disrespect in open source**:
+   - [“Did You Miss My Comment or What?” Understanding Toxicity in Open Source Discussions](https://cmustrudel.github.io/papers/osstoxicity22.pdf)
+
+7. **Comparisons between open source licenses**
+   - [Open Source Licenses: Types and Comparison](https://snyk.io/articles/open-source-licenses/)
+
+8. **Python pattern plugins**:
+   - [Creating and discovering plugins](https://packaging.python.org/en/latest/guides/creating-and-discovering-plugins/)
+
+9. **My Youtube channel**:
+   - [https://www.youtube.com/@herveberaud](https://www.youtube.com/@herveberaud)
