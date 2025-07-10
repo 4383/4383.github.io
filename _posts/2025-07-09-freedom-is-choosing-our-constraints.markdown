@@ -60,7 +60,9 @@ Freedom is not given, it is earned. Freedom is choosing our constraints that you
 4. **Open Source Maintainers Survey**:
    - [Almost 60% of maintainers have quit burnout](https://www.sonarsource.com/blog/maintainer-burnout-is-real/)
 
-5. **Scientific study about burnout**:
+5. **Scientific studies about burnout**:
+   - [Adaptive Self-Regulation of Unattainable Goals: Goal Disengagement, Goal Reengagement, and Subjective Well-Being](https://doi.org/10.1177/0146167203256921)
+   - [The bright side of being blue: Depression as an adaptation for analyzing complex problems.](https://psycnet.apa.org/doiLanding?doi=10.1037/a0016242)
    - [Stress and Burnout in Open Source: Toward Finding, Understanding, and Mitigating Unhealthy Interactions](https://www.cs.cmu.edu/~ckaestne/pdf/icsenier20.pdf)
 
 6. **Scientific study about disrespect in open source**:
@@ -72,5 +74,9 @@ Freedom is not given, it is earned. Freedom is choosing our constraints that you
 8. **Python pattern plugins**:
    - [Creating and discovering plugins](https://packaging.python.org/en/latest/guides/creating-and-discovering-plugins/)
 
-9. **My Youtube channel**:
+9. **Evolutionary psychology blog and videos (French resources)**:
+   - [Pourquoi les humains dépriment ? Psychiatrie évolutionnaire](https://homofabulus.com/pourquoi-les-humains-depriment-psychiatrie-evolutionnaire-3-4/)
+   - [Pourquoi les humains dépriment ? Psychiatrie évolutionnaire Video 3/4](https://www.youtube.com/watch?v=D9m5VlrBYII)
+
+10. **My Youtube channel**:
    - [https://www.youtube.com/@herveberaud](https://www.youtube.com/@herveberaud)
