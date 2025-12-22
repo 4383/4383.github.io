@@ -3,7 +3,7 @@ layout: post
 title:  "How Social Justice Killed Netherlands' Economy"
 description: "The Scam of the European Pillar of Social Rights"
 date:   2025-12-08 09:29:00 +0100
-image: europe-crisis.png
+image: european-crisis.png
 categories: [EU, european union, netherlands, crisis]
 ---
 It is 2017. The Netherlands is riding high, experiencing dynamic growth with a GDP climbing by 2.9%, historically low bankruptcy levels, and a housing market in full swing, driven largely by private rental investment. At this time, the contractual freedom of independent workers—the famous "ZZP" is the pride of the country, and everything seems to be going for the best.
