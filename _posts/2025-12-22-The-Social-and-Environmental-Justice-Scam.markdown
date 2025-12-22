@@ -52,7 +52,7 @@ Another option is relocating to a country with a strongly liberal economic frame
 
 Finally, you can create your own company to invest your capital productively—allowing it to grow over time while actively preparing for your future.
 
-We explore all of these strategies in detail in [my Patreon article](https://www.patreon.com/posts/146429508).
+We explore all of these strategies in detail in [my Patreon article](https://www.patreon.com/posts/146429508). You can also [watch my youtube video on this topic](https://youtu.be/DJfiGYIv77Q).
 
 If this topic resonates with you, join me on Patreon to help fund my projects and get value for your own independence. Don’t forget to leave a comment on the legitimate role of the state, give a thumbs up, and share this video to raise awareness.
 

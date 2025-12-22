@@ -52,7 +52,7 @@ Une autre option consiste à s’installer dans un pays doté d’un cadre écon
 
 Enfin, vous pouvez créer votre propre entreprise afin d’investir votre capital de manière productive, lui permettre de croître dans le temps et préparer activement votre avenir.
 
-Nous détaillons l’ensemble de ces stratégies dans [mon article sur Patreon](https://www.patreon.com/posts/146429508).
+Nous détaillons l’ensemble de ces stratégies dans [mon article sur Patreon](https://www.patreon.com/posts/146429508). Vous pouvez également [regarder ma vidéo sur ce sujet](https://youtu.be/DJfiGYIv77Q).
 
 Si ce sujet vous parle, rejoignez-moi sur Patreon pour participer au financement de mes projets et obtenir de la valeur pour votre propre indépendance. N'oubliez pas de laisser un commentaire sur la place légitime de l'État, de mettre un pouce et de partager cette vidéo pour éveiller les consciences.
 
