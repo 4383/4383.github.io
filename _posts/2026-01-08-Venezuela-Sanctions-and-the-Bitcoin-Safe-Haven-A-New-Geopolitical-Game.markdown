@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Venezuela, Sanctions, and the Bitcoin Safe Haven: A New Geopolitical Game"
-description: "The world of geopolitics is rapidly intersecting with the digital realm, creating new power dynamics that are reconfiguring global finance. A stark example of this shift can be seen in the recent hist"
+description: "The world of geopolitics is rapidly intersecting with the digital realm, creating new power dynamics that are reconfiguring global finance. A stark example of this shift: Tthe US intervention in Venezuela and the arrest of Nicolas Maduro"
 date:   2026-01-08 20:09:42 +0100
 image: maduro.png
 categories: ["bitcoin", "maduro", "trump", "USA", "sanctions"]

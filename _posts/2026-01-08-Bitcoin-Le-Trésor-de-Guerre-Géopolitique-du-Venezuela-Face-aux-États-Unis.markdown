@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bitcoin : Le Trésor de Guerre Géopolitique du Venezuela Face aux États-Unis"
-description: "L'intervention des États-Unis au Venezuela révèle une dimension géopolitique et cryptographique majeure, redessinant les contours du pouvoir mondial. Un exemple frappant de cette reconfiguration est l"
+description: "L'intervention des États-Unis au Venezuela et l'arrestation de Nicolas Maduro révèle une dimension géopolitique et cryptographique majeure, redessinant les contours du pouvoir mondial."
 date:   2026-01-08 20:16:34 +0100
 image: maduro.png
 categories: ["bitcoin", "maduro", "trump", "USA", "sanctions"]

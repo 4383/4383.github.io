@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "La Vertu sous Contrainte est-elle Morale ?"
-description: "Les bonnes actions effectuées sous la contrainte sont-elles réellement morales ? Peuvent-elles être qualifiées de vertueuses ou d'éthiques ? Cette question, loin d'être purement abstraite, touche au c"
+description: "Les bonnes actions effectuées sous la contrainte sont-elles réellement morales ? Peuvent-elles être qualifiées de vertueuses ou d'éthiques ?"
 date:   2026-01-07 20:32:08 +0100
 image: morale.png
 categories: ["liberalisme", "morale", "ethique", "justice"]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Illusion of Forced Virtue: Why True Morality Requires Freedom"
-description: "Are good deeds performed under duress truly moral? When an action is compelled, can we still consider it virtuous or ethical? This fundamental question challenges the very nature of our societal struc"
+description: "Are good deeds performed under duress truly moral? When an action is compelled, can we still consider it virtuous or ethical? This fundamental question challenges the very nature of our societal structure"
 date:   2026-01-07 20:29:50 +0100
 image: morale.png
 categories: ["Libertarianism", "moral", "ethic", "justice"]
